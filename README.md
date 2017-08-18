@@ -2,13 +2,11 @@
 
 This primer contains a series of tutorials explaining Data Together as well as identifies key concepts for community-based data stewardship. As a [GitBook](https://www.gitbook.com/), it allows people to read it in many formats.
 
-## Table of Contents
+## First Steps
 
+Check out the [Table of Contents](SUMMARY.md) or the sidebar on the left. Topics are broken down into _Tutorials_ with distinct _Lessons_ within each!
 
-
-## Tutorials
-
-
+The [first tutorial]() covers adding a dataset to Data Together and reviews how Data Together is different from other forms of preserving data!
 
 ## Getting Help
 
