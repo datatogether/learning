@@ -32,28 +32,35 @@ Before you start you'll want to know a little bit about the dataset you would li
 An example would be EPA's National Greenhouse Gas Emission Inventory, currently located at https://catalog.data.gov/dataset/national-greenhouse-gas-emission-inventory. 
 
 
-#### Step 2. 
-
-### Register on Data Together
+#### Step 2. Register on Data Together
 
 To register on Data Together, visit https://archivers.co/signup
 
 <img src="images/Screenshot-signup.png" width=250> <img src="images/screenshot-signup-1.png" width=250>
 
 
-#### Step 3. 
+#### Step 3. Archive a dataset on Data Together
 
 * Copy the URL of the dataset you would like to archive
 * Visit the Data Together [Add a Dataset](#) page
 * Paste the URL into the "URL to archive" text box
 * Type a simple description in your own words into the "How do you use this dataset?" text box 
+* Click "Archive" button
+* Success! You archived a dataset :)
 
 <img src="images/screenshot-AddADataset.png" width=500>
 
-#### Step 4. 
+#### Step 4. Review the actions you can take on datasets
 
+Adding, harvesting, and storing are all verbs used in Data Together to describe actions you can preform on datasets
 
+* Adding a dataset means [...]
+* Harvesting a dataset means [...]
+* Storing a dataset means [...]
 
+#### Step 5. Explore the concepts of data stewardship that underly Data Together
+
+Data Together helps groups steward data they care about by [...]
 
 ## Next Steps
 
