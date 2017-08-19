@@ -51,6 +51,18 @@ $ gitbook serve
 
 And visiting `http://localhost:4000` (or whatever address specified) in your browser
 
+### Deploying
+
+To deploy complete the following:
+
+
+
+```bash
+ln -s /Applications/calibre.app/Contents/MacOS/ebook-convert /usr/local/bin
+```
+
+
+
 ## License
 
 <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Data Together Learning Materials</span> are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
