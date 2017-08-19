@@ -25,24 +25,35 @@ After going through this tutorial you will know how to:
 
 ### Add an Important Dataset{#lesson-one}
 
-#### Step 1. Get information about the dataset
+#### Step 1. Get information about a dataset
 
 Before you start you'll want to know a little bit about the dataset you would like to archive on Data Together. At a minimum this should include the **name** and **web address** or [**URL** ](https://en.wikipedia.org/wiki/URL) where the dataset can currently be accessed.
 
-As an example, see EPA's National Greenhouse Gas Emission Inventory, currently located at https://catalog.data.gov/dataset/national-greenhouse-gas-emission-inventory. 
+An example would be EPA's National Greenhouse Gas Emission Inventory, currently located at https://catalog.data.gov/dataset/national-greenhouse-gas-emission-inventory. 
 
-Next, visit the Data Together [Add a Dataset](#) page
+
+#### Step 2. 
+
+### Register on Data Together
+
+To register on Data Together, visit https://archivers.co/signup
+
+<img src="images/Screenshot-signup.png" width=250> <img src="images/screenshot-signup-1.png" width=250>
+
+
+#### Step 3. 
+
+* Copy the URL of the dataset you would like to archive
+* Visit the Data Together [Add a Dataset](#) page
+* Paste the URL into the "URL to archive" text box
+* Type a simple description in your own words into the "How do you use this dataset?" text box 
 
 <img src="images/screenshot-AddADataset.png" width=500>
 
+#### Step 4. 
 
-#### Step 2. ??
 
-### Register on Data Together (Optional){#lesson-two}
 
-1. To register on Data Together, visit https://archivers.co/signup
-
-<img src="images/Screenshot-signup.png" width=500>
 
 ## Next Steps
 
