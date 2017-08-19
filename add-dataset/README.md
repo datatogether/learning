@@ -33,7 +33,7 @@ As an example, see EPA's National Greenhouse Gas Emission Inventory, currently l
 
 Next, visit the Data Together [Add a Dataset](#) page
 
-![screenshot of the "Add a Dataset" interface](add-dataset/images/screenshot-AddADataset.png)
+<img src="add-dataset/images/screenshot-AddADataset.png width=500>
 
 
 #### Step 2. ??
@@ -42,7 +42,7 @@ Next, visit the Data Together [Add a Dataset](#) page
 
 1. To register on Data Together, visit https://archivers.co/signup
 
-![screenshot of signing up for an account](add-dataset/images/Screenshot-signup.png)
+<img src="add-dataset/images/Screenshot-signup.png width=500>
 
 ## Next Steps
 
