@@ -29,6 +29,8 @@ After going through this tutorial you will know how to:
 
 Before you start you'll want to know a little bit about the dataset you would like to archive on Data Together. At a minimum this should include the **name** and **web address** or [**URL** ](https://en.wikipedia.org/wiki/URL) where the dataset can currently be accessed.
 
+As an example, see EPA's National Greenhouse Gas Emission Inventory, currently located at https://catalog.data.gov/dataset/national-greenhouse-gas-emission-inventory. 
+
 Next, visit the Data Together [Add a Dataset](#) page
 
 <screenshot>
