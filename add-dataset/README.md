@@ -45,7 +45,7 @@ To register on Data Together, visit https://archivers.co/signup
 * Visit the Data Together [Add a Dataset](#) page
 * Paste the URL into the "URL to archive" text box
 * Type a simple description in your own words into the "How do you use this dataset?" text box 
-* Click "Archive" button
+* Click the "Archive" button
 * Success! You archived a dataset :)
 
 <img src="images/screenshot-AddADataset.png" width=500>
