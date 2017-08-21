@@ -13,7 +13,7 @@ After going through this tutorial you will know how to:
 * Add a dataset to Data Together for harvesting
 * Create an account on Data Together
 * Explain the difference between adding, harvesting, and storing datasets with Data Together
-* Describe how Data Together helps groups steward data they care about
+* Describe how Data Together helps groups to steward data they care about
 
 ## Key Concepts
 
@@ -27,7 +27,7 @@ After going through this tutorial you will know how to:
 
 #### Step 1. Get information about a dataset
 
-Before you start you'll want to know a little bit about the dataset you would like to archive on Data Together. At a minimum this should include the **name** and **web address** or [**URL** ](https://en.wikipedia.org/wiki/URL) where the dataset can currently be accessed.
+Before you start you'll want to know a little bit about the dataset you would like to archive on Data Together. At a minimum this should include the **name** and **web address** or [**URL** ](https://en.wikipedia.org/wiki/URL) where the dataset can be accessed.
 
 An example would be EPA's National Greenhouse Gas Emission Inventory, currently located at https://catalog.data.gov/dataset/national-greenhouse-gas-emission-inventory. 
 

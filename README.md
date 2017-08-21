@@ -1,39 +1,39 @@
 # Data Together Learning Materials
 
-This primer contains a series of tutorials explaining Data Together as well as identifies key concepts for community-based data stewardship. As a [GitBook](https://www.gitbook.com/), it allows people to read it in many formats.
+This primer introduces key concepts for community-based data stewardship and contains a series of tutorials explaining Data Together. As a [GitBook](https://www.gitbook.com/), it can be read in many different formats.
 
 ## First Steps
 
 Check out the [Table of Contents](SUMMARY.md) or the sidebar on the left. Topics are broken down into _Tutorials_ with distinct _Lessons_ within each!
 
-The [first tutorial]() covers adding a dataset to Data Together and reviews how Data Together is different from other forms of preserving data!
+The [first tutorial]() covers adding a dataset to Data Together and reviews how Data Together is different from other forms of preserving data.
 
 ## Getting Help
 
-In addition, you can get help by:
+You can get help by any of the following methods:
 
-- adding a question to the [datatogether/learning](https://github.com/datatogether/learning/issues) issue tracker
-- speaking with us on the [Archivers Slack](https://slack.archivers.space)
+- add a question to the [datatogether/learning](https://github.com/datatogether/learning/issues) issue tracker
+- speak with us on the [Archivers Slack](https://slack.archivers.space)
 
 ---
 
 ## Contributing
 
-If you notice any errors, would like to submit changes, or add any content, you can contribute improvements to this documentation on [GitHub](https://github.com/datatogether/learning): [github.com/datatogether/learning](https://github.com/datatogether/learning)!
+We welcome your input!  If you notice any errors, would like to submit changes, or add any content, you can contribute improvements to this documentation on [GitHub](https://github.com/datatogether/learning): [github.com/datatogether/learning](https://github.com/datatogether/learning).
 
-### Clone this Repo
+### Cloning this Repo
 
-You can clone a copy
+You can clone a copy of this repository using the following command line:
 
 ```bash
 $ git clone git@github.com:datatogether/learning.git
 ```
 
-### Install Dependencies
+### Installing Dependencies
 
-To install GitBook your system requires [Node.js](https://nodejs.org/en/) (v4.0.0 or above) and must be running Windows, Mac OS X, Linux, or Unix.
+To install GitBook, you will need [Node.js](https://nodejs.org/en/) (v4.0.0 or above) on your system and you must be running Windows, Mac OS X, Linux, or Unix.
 
-It is easiest to install `gitbook-cli` with [npm](https://www.npmjs.com/), the Node.js package manager. From your terminal, run:
+It is easiest to install `gitbook-cli` with [npm](https://www.npmjs.com/), the Node.js package manager. From your terminal, run the following command:
 
 ```bash
 $ npm install gitbook-cli -g
@@ -43,13 +43,13 @@ Additional instructions for setting up and installing GitBook can be found in th
 
 ### Running Locally
 
-Once you make changes, you can preview them by running a local server:
+Once you make changes to the contents, you can preview them by running a local GitBook server:
 
 ```bash
 $ gitbook serve
 ```
 
-And visiting `http://localhost:4000` (or whatever address specified) in your browser
+After starting the server using the command above, visit `http://localhost:4000` (or whatever address was indicated by the `gitbook serve` command) in your web browser.
 
 ### Deploying
 
@@ -60,7 +60,7 @@ $ bash scripts/build_formats.sh
 $ bash scripts/publish_gh-pages.sh
 ```
 
-You may need to install Calibre's ebook-convert cli tools, for Mac OS X these can be copied from the Calibre application:
+You may need to install Calibre's ebook-convert cli tools. For Mac OS X, these can be copied from the Calibre application:
 
 ```bash
 $ ln -s /Applications/calibre.app/Contents/MacOS/ebook-convert /usr/local/bin
