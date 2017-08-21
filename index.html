@@ -200,40 +200,40 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="data-together-learning-materials">Data Together Learning Materials</h1>
-<p>This primer contains a series of tutorials explaining Data Together as well as identifies key concepts for community-based data stewardship. As a <a href="https://www.gitbook.com/" target="_blank">GitBook</a>, it allows people to read it in many formats.</p>
+<p>This primer introduces key concepts for community-based data stewardship and contains a series of tutorials explaining Data Together. As a <a href="https://www.gitbook.com/" target="_blank">GitBook</a>, it can be read in many different formats.</p>
 <h2 id="first-steps">First Steps</h2>
 <p>Check out the <a href="SUMMARY.md">Table of Contents</a> or the sidebar on the left. Topics are broken down into <em>Tutorials</em> with distinct <em>Lessons</em> within each!</p>
-<p>The <a href="">first tutorial</a> covers adding a dataset to Data Together and reviews how Data Together is different from other forms of preserving data!</p>
+<p>The <a href="">first tutorial</a> covers adding a dataset to Data Together and reviews how Data Together is different from other forms of preserving data.</p>
 <h2 id="getting-help">Getting Help</h2>
-<p>In addition, you can get help by:</p>
+<p>You can get help by any of the following methods:</p>
 <ul>
-<li>adding a question to the <a href="https://github.com/datatogether/learning/issues" target="_blank">datatogether/learning</a> issue tracker</li>
-<li>speaking with us on the <a href="https://slack.archivers.space" target="_blank">Archivers Slack</a></li>
+<li>add a question to the <a href="https://github.com/datatogether/learning/issues" target="_blank">datatogether/learning</a> issue tracker</li>
+<li>speak with us on the <a href="https://slack.archivers.space" target="_blank">Archivers Slack</a></li>
 </ul>
 <hr>
 <h2 id="contributing">Contributing</h2>
-<p>If you notice any errors, would like to submit changes, or add any content, you can contribute improvements to this documentation on <a href="https://github.com/datatogether/learning" target="_blank">GitHub</a>: <a href="https://github.com/datatogether/learning" target="_blank">github.com/datatogether/learning</a>!</p>
-<h3 id="clone-this-repo">Clone this Repo</h3>
-<p>You can clone a copy</p>
+<p>We welcome your input!  If you notice any errors, would like to submit changes, or add any content, you can contribute improvements to this documentation on <a href="https://github.com/datatogether/learning" target="_blank">GitHub</a>: <a href="https://github.com/datatogether/learning" target="_blank">github.com/datatogether/learning</a>.</p>
+<h3 id="cloning-this-repo">Cloning this Repo</h3>
+<p>You can clone a copy of this repository using the following command line:</p>
 <pre><code class="lang-bash">$ git <span class="hljs-built_in">clone</span> git@github.com:datatogether/learning.git
 </code></pre>
-<h3 id="install-dependencies">Install Dependencies</h3>
-<p>To install GitBook your system requires <a href="https://nodejs.org/en/" target="_blank">Node.js</a> (v4.0.0 or above) and must be running Windows, Mac OS X, Linux, or Unix.</p>
-<p>It is easiest to install <code>gitbook-cli</code> with <a href="https://www.npmjs.com/" target="_blank">npm</a>, the Node.js package manager. From your terminal, run:</p>
+<h3 id="installing-dependencies">Installing Dependencies</h3>
+<p>To install GitBook, you will need <a href="https://nodejs.org/en/" target="_blank">Node.js</a> (v4.0.0 or above) on your system and you must be running Windows, Mac OS X, Linux, or Unix.</p>
+<p>It is easiest to install <code>gitbook-cli</code> with <a href="https://www.npmjs.com/" target="_blank">npm</a>, the Node.js package manager. From your terminal, run the following command:</p>
 <pre><code class="lang-bash">$ npm install gitbook-cli -g
 </code></pre>
 <p>Additional instructions for setting up and installing GitBook can be found in the <a href="https://toolchain.gitbook.com/setup.html" target="_blank">GitBook Toolchain Documentation</a></p>
 <h3 id="running-locally">Running Locally</h3>
-<p>Once you make changes, you can preview them by running a local server:</p>
+<p>Once you make changes to the contents, you can preview them by running a local GitBook server:</p>
 <pre><code class="lang-bash">$ gitbook serve
 </code></pre>
-<p>And visiting <code>http://localhost:4000</code> (or whatever address specified) in your browser</p>
+<p>After starting the server using the command above, visit <code>http://localhost:4000</code> (or whatever address was indicated by the <code>gitbook serve</code> command) in your web browser.</p>
 <h3 id="deploying">Deploying</h3>
 <p>The <a href="scripts"><code>scripts/</code></a> folder has all you need to rebuild the GitBook materials in multiple formats and publish to <code>gh-pages</code> and <a href="https://datatogether.github.io/learning/" target="_blank">datatogether.github.io/learning</a>:</p>
 <pre><code class="lang-bash">$ bash scripts/build_formats.sh
 $ bash scripts/publish_gh-pages.sh
 </code></pre>
-<p>You may need to install Calibre&apos;s ebook-convert cli tools, for Mac OS X these can be copied from the Calibre application:</p>
+<p>You may need to install Calibre&apos;s ebook-convert cli tools. For Mac OS X, these can be copied from the Calibre application:</p>
 <pre><code class="lang-bash">$ ln <span class="hljs-_">-s</span> /Applications/calibre.app/Contents/MacOS/ebook-convert /usr/<span class="hljs-built_in">local</span>/bin
 </code></pre>
 <h2 id="license">License</h2>
@@ -278,7 +278,7 @@ $ bash scripts/publish_gh-pages.sh
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"1.1","depth":1,"next":{"title":"Add a Dataset","level":"2.1","depth":1,"path":"add-dataset/README.md","ref":"add-dataset/README.md","articles":[{"title":"Lesson: Add an Important Dataset","level":"2.1.1","depth":2,"anchor":"#lesson-one","path":"add-dataset/README.md","ref":"add-dataset/README.md#lesson-one","articles":[]},{"title":"Lesson: Register on Data Together","level":"2.1.2","depth":2,"anchor":"#lesson-two","path":"add-dataset/README.md","ref":"add-dataset/README.md#lesson-two","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2017-08-21T14:43:21.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-08-21T14:45:18.128Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"1.1","depth":1,"next":{"title":"Add a Dataset","level":"2.1","depth":1,"path":"add-dataset/README.md","ref":"add-dataset/README.md","articles":[{"title":"Lesson: Add an Important Dataset","level":"2.1.1","depth":2,"anchor":"#lesson-one","path":"add-dataset/README.md","ref":"add-dataset/README.md#lesson-one","articles":[]},{"title":"Lesson: Register on Data Together","level":"2.1.2","depth":2,"anchor":"#lesson-two","path":"add-dataset/README.md","ref":"add-dataset/README.md#lesson-two","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2017-08-21T14:56:37.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-08-21T14:57:04.924Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
