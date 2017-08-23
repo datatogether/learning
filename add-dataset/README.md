@@ -15,7 +15,7 @@ After going through this tutorial you will know how to:
 * Explain the difference between adding, harvesting, and storing datasets with Data Together
 * Describe how Data Together helps groups to steward data they care about
 
-### Add a Dataset
+****
 
 #### Step 1. Get information about a dataset
 
