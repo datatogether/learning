@@ -30,7 +30,7 @@ An example would be EPA's National Greenhouse Gas Emission Inventory, currently 
 
 * Register on Data Together by visiting https://archivers.co/signup
 
-<img src="images/Screenshot-signup.png" width=250> <img src="images/screenshot-signup-1.png" width=250>
+<img src="images/Screenshot-signup.png" width=250> <img src="https://github.com/datatogether/learning/blob/master/add-dataset/images/screenshot-signup-1.png" width=250>
 
 
 #### Step 3. Archive a dataset on Data Together
@@ -55,6 +55,16 @@ Adding, harvesting, and storing are all verbs used in Data Together to describe 
 #### Step 5. Explore the concepts of data stewardship that underly Data Together
 
 Data Together helps groups steward data they care about by [...]
+
+* Public Record means [...]
+* Data Together Nodes means [...]
+* Distributed Data Stewardship means [...]
+
+## Key Concepts
+
+* Public Record
+* Data Together Nodes
+* Distributed Data Stewardship
 
 ## Next Steps
 
