@@ -4,7 +4,7 @@ _Note: This tutorial is a work in progress. Please add your feedback to [datatog
 
 ## Prerequisites
 
-* You care about a dataset that exists on the web
+* You care about a dataset that exists on the web -- that's it :)
 
 ## Learning Objectives
 
@@ -15,26 +15,20 @@ After going through this tutorial you will know how to:
 * Explain the difference between adding, harvesting, and storing datasets with Data Together
 * Describe how Data Together helps groups to steward data they care about
 
-## Key Concepts
-
-* Public Record
-* Data Together Nodes
-* Distributed Data Stewardship
-
-## Lessons
-
-### Add an Important Dataset{#lesson-one}
+### Add a Dataset
 
 #### Step 1. Get information about a dataset
 
-Before you start you'll want to know a little bit about the dataset you would like to archive on Data Together. At a minimum this should include the **name** and **web address** or [**URL** ](https://en.wikipedia.org/wiki/URL) where the dataset can be accessed.
+* Consider the dataset that you would like to archive on Data Together. 
+* Make note of the **name** and **web address** or [**URL** ](https://en.wikipedia.org/wiki/URL) where the dataset can be accessed. 
+* In addition but without spending too much time, make note of contextual information such as what you use the data for, why the data was collected (and by who), what date it was published. 
 
 An example would be EPA's National Greenhouse Gas Emission Inventory, currently located at https://catalog.data.gov/dataset/national-greenhouse-gas-emission-inventory. 
 
 
 #### Step 2. Register on Data Together
 
-To register on Data Together, visit https://archivers.co/signup
+* Register on Data Together by visiting https://archivers.co/signup
 
 <img src="images/Screenshot-signup.png" width=250> <img src="images/screenshot-signup-1.png" width=250>
 
@@ -68,5 +62,3 @@ More tutorials to follow, including how to:
 
 * Replicate a dataset you care about onto hardware that you control
 * Browse datasets that have been backed up
-
-Check back soon!
