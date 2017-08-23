@@ -60,12 +60,6 @@ Data Together helps groups steward data they care about by [...]
 * Data Together Nodes means [...]
 * Distributed Data Stewardship means [...]
 
-## Key Concepts
-
-* Public Record
-* Data Together Nodes
-* Distributed Data Stewardship
-
 ## Next Steps
 
 More tutorials to follow, including how to:
