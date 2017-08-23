@@ -30,7 +30,7 @@ An example would be EPA's National Greenhouse Gas Emission Inventory, currently 
 
 * Register on Data Together by visiting https://archivers.co/signup
 
-<img src="images/Screenshot-signup.png" width=250> <img src="https://github.com/datatogether/learning/blob/master/add-dataset/images/screenshot-signup-1.png" width=250>
+<img src="images/Screenshot-signup.png" width=500>
 
 
 #### Step 3. Archive a dataset on Data Together
