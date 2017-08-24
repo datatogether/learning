@@ -17,34 +17,34 @@ After going through this tutorial you will know how to:
 
 ****
 
-#### Step 1. Get information about a dataset
+### Step 1. Get information about a dataset
 
-* Consider the dataset that you would like to archive on Data Together. 
-* Make note of the **name** and **web address** or [**URL** ](https://en.wikipedia.org/wiki/URL) where the dataset can be accessed. 
-* In addition but without spending too much time, make note of contextual information such as what you use the data for, why the data was collected (and by who), what date it was published. 
+* Consider the dataset that you would like to archive on Data Together.
+* Make note of the **name** and **web address** or [**URL** ](https://en.wikipedia.org/wiki/URL) where the dataset can be accessed.
+* In addition but without spending too much time, make note of contextual information such as what you use the data for, why the data was collected (and by who), what date it was published.
 
-An example would be EPA's National Greenhouse Gas Emission Inventory, currently located at https://catalog.data.gov/dataset/national-greenhouse-gas-emission-inventory. 
+An example would be EPA's National Greenhouse Gas Emission Inventory, currently located at https://catalog.data.gov/dataset/national-greenhouse-gas-emission-inventory.
 
+### Step 2. Register on Data Together{#lesson-one}
 
-#### Step 2. Register on Data Together
+_This step is optional_
 
 * Register on Data Together by visiting https://archivers.co/signup
 
-<img src="images/Screenshot-signup.png" width=500>
+<img src="images/Screenshot-signup.png" width=500 />
 
-
-#### Step 3. Archive a dataset on Data Together
+### Step 3. Archive a dataset on Data Together{#lesson-two}
 
 * Copy the URL of the dataset you would like to archive
 * Visit the Data Together [Add a Dataset](#) page
 * Paste the URL into the "URL to archive" text box
-* Type a simple description in your own words into the "How do you use this dataset?" text box 
+* Type a simple description in your own words into the "How do you use this dataset?" text box
 * Click the "Archive" button
 * Success! You archived a dataset :)
 
-<img src="images/screenshot-AddADataset.png" width=500>
+<img src="images/screenshot-AddADataset.png" width=500 />
 
-#### Step 4. Review the actions you can take on datasets
+### Step 4. Review the actions you can take on datasets
 
 Adding, harvesting, and storing are all verbs used in Data Together to describe actions you can preform on datasets
 
@@ -52,7 +52,7 @@ Adding, harvesting, and storing are all verbs used in Data Together to describe 
 * Harvesting a dataset means [...]
 * Storing a dataset means [...]
 
-#### Step 5. Explore the concepts of data stewardship that underly Data Together
+### Step 5. Explore the concepts of data stewardship that underly Data Together
 
 Data Together helps groups steward data they care about by [...]
 
@@ -62,7 +62,7 @@ Data Together helps groups steward data they care about by [...]
 
 ## Next Steps
 
-More tutorials to follow, including how to:
+Move to the next tutorials on how to:
 
 * Replicate a dataset you care about onto hardware that you control
 * Browse datasets that have been backed up

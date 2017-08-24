@@ -1,4 +1,4 @@
-# Tutorial: Replicate a dataset you care about onto hardware that you control
+# Tutorial: Replicate a Dataset you care about onto hardware that you control
 
 _Note: This tutorial is a work in progress. Please add your feedback to [datatogether/learning](https://github.com/datatogether/learning/issues)!_
 
@@ -18,31 +18,31 @@ After going through this tutorial you will know how to:
 
 ****
 
-#### Step 1. Install ipfs and check that it's working properly
+### Step 1. Install ipfs and check that it's working properly
 
-* Visit the IPFS installation page at https://ipfs.io/docs/install/ 
+* Visit the IPFS installation page at https://ipfs.io/docs/install/
 * Scroll down to locate and download the prebuilt ipfs binaries for your operating system
 
-<img src="https://github.com/datatogether/learning/blob/liz-test-branch/replicate-with-control/images/screenshot-go-ipfs-builds.png" width=500>
+<img src="images/screenshot-go-ipfs-builds.png" width=500 />
 
 * Visit this page to learn the exact installation steps for each operating system: https://github.com/flyingzumwalt/decentralized-web-primer/blob/master/install-ipfs/lessons/download-and-install.md
 
 * Next visit this lesson to initialize your ipfs repository: https://github.com/flyingzumwalt/decentralized-web-primer/blob/master/install-ipfs/lessons/initialize-repository.md
 
-#### Step 2. get the hash of the data
+### Step 2. Get the hash of the data
 
 * [...]
 
-#### Step 3. Make sure you have enough storage space to hold the data
+### Step 3. Make sure you have enough storage space to hold the data
 
 * [...]
 
-#### Step 4. pin the data onto your machine.
+### Step 4. Pin the data onto your machine
 
 * [...]
 
 ## Next Steps
 
-More tutorials to follow, including how to:
+Move to the next tutorial on how to:
 
 * Browse datasets that have been backed up
