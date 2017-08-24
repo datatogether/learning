@@ -20,7 +20,10 @@ After going through this tutorial you will know how to:
 
 #### Step 1. Install ipfs
 
-* [...]
+* Visit the IPFS installation page at https://ipfs.io/docs/install/ 
+* Scroll down to locate and download the prebuilt ipfs binaries for your operating system
+
+<img src="https://github.com/datatogether/learning/blob/liz-test-branch/replicate-with-control/images/screenshot-go-ipfs-builds.png" width=500>
 
 #### Step 2. Make sure ipfs is installed and working properly
 
