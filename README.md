@@ -6,7 +6,7 @@ This primer introduces key concepts for community-based data stewardship and con
 
 Check out the [Table of Contents](SUMMARY.md) or the sidebar on the left. Topics are broken down into _Tutorials_ with distinct _Lessons_ within each!
 
-The [first tutorial](https://github.com/datatogether/learning/tree/master/add-dataset) covers adding a dataset to Data Together and reviews how Data Together is different from other forms of preserving data.
+The [first tutorial](./add-dataset/) covers adding a dataset to Data Together and reviews how Data Together is different from other forms of preserving data.
 
 ## Getting Help
 
