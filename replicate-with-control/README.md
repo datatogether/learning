@@ -4,7 +4,7 @@ _Note: This tutorial is a work in progress. Please add your feedback to [datatog
 
 ## Prerequisites
 
-* willingness to work on the command line
+* some familiarity with the command line
 * [...]
 
 ## Learning Objectives
@@ -26,6 +26,8 @@ After going through this tutorial you will know how to:
 <img src="https://github.com/datatogether/learning/blob/liz-test-branch/replicate-with-control/images/screenshot-go-ipfs-builds.png" width=500>
 
 * The most complete instructions are located here, please go here to find exact commands to run: https://github.com/flyingzumwalt/decentralized-web-primer/blob/master/install-ipfs/lessons/download-and-install.md
+
+* Next visit this lesson to initialize your ipfs repository: https://github.com/flyingzumwalt/decentralized-web-primer/blob/master/install-ipfs/lessons/initialize-repository.md
 
 #### Step 2. get the hash of the data
 
