@@ -24,6 +24,7 @@ _**Note: this tutorial is written for Mac users, but please follow links into th
 
 * Visit the IPFS installation page at https://ipfs.io/docs/install/
 * Scroll down to locate and download the prebuilt ipfs binaries for your operating system
+  * On Mac, click the big blue button shown in the screenshot below: 
 
 <img src="images/screenshot-go-ipfs-builds.png" width=500 />
 
