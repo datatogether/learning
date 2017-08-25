@@ -43,11 +43,11 @@ _**Note: this tutorial is written for Mac users, but please follow links into th
 * On a mac, use Disc Utility to check how much room your harddrive has. 
 * Remember this amount for use in the next step!
 
-### Step 3. Browse to a dataset online, check it's size, & get it's hash
+### Step 3. Browse to a dataset online, check its size, and get its hash
 
 * Visit http://datatogether.org/public-record/ 
 * Search for a piece of content _(at this time August 29, search only works for a single term at a time)_
-* Note its size, and compare with the amount of room available on your hard drive -- will it fit? If so, proceed!
+* Note its size, and compare with the amount of room available on your hard drive -- ask yourself, will it fit? If so, proceed!
 
 [screenshot]
 
