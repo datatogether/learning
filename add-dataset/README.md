@@ -25,9 +25,7 @@ After going through this tutorial you will know how to:
 
 An example would be EPA's National Greenhouse Gas Emission Inventory, currently located at https://catalog.data.gov/dataset/national-greenhouse-gas-emission-inventory.
 
-### Step 2. Register on Data Together{#lesson-one}
-
-_This step is optional_
+### Step 2. Register on Data Together _(optional)_
 
 * Register on Data Together by visiting https://archivers.co/signup
 
@@ -44,21 +42,10 @@ _This step is optional_
 
 <img src="images/screenshot-AddADataset.png" width=500 />
 
-### Step 4. Review the actions you can take on datasets
+### Step 4. Explore the concepts of data stewardship that underly Data Together
 
-Adding, harvesting, and storing are all verbs used in Data Together to describe actions you can preform on datasets
-
-* Adding a dataset means [...]
-* Harvesting a dataset means [...]
-* Storing a dataset means [...]
-
-### Step 5. Explore the concepts of data stewardship that underly Data Together
-
-Data Together helps groups steward data they care about by [...]
-
-* Public Record means [...]
-* Data Together Nodes means [...]
-* Distributed Data Stewardship means [...]
+* **Public Record** means a shared record of the information that has been published by the plethora of entities on the web.
+* **Distributed Data Stewardship** means is using distributed technologies to secure & provide access to data that you care about.
 
 ## Next Steps
 
