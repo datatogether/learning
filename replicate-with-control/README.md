@@ -29,9 +29,19 @@ After going through this tutorial you will know how to:
 
 * Next visit this lesson to initialize your ipfs repository: https://github.com/flyingzumwalt/decentralized-web-primer/blob/master/install-ipfs/lessons/initialize-repository.md
 
-### Step 2. Get the hash of the data
+### Step 2. Start your local ipfs node
 
-* [...]
+* Open one terminal window to start the ipfs on your local machine. This is your node on ipfs: it is running on your local machine, connecting you to the distributed web, allowing you to add and remove content, and broadcast those actions to the distributed web. 
+* in terminal, type `ipfs daemon` 
+* Allow the ipfs process to keep running by leaving this window open.
+
+### Step 3. Get the hash of the data
+
+* Visit http://datatogether.org/public-record/ 
+* Search for a piece of content _(at this time August 29, search only works for a single term at a time)_
+* 
+
+[screenshot]
 
 ### Step 3. Make sure you have enough storage space to hold the data
 
