@@ -31,7 +31,7 @@ An example would be EPA's National Greenhouse Gas Emission Inventory, currently 
 
 <img src="images/Screenshot-signup.png" width=500 />
 
-### Step 3. Archive a dataset on Data Together{#lesson-two}
+### Step 3. Archive a dataset on Data Together
 
 * Copy the URL of the dataset you would like to archive
 * Visit the Data Together [Add a Dataset](#) page
