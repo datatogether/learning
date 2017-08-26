@@ -6,25 +6,25 @@ _Note: this tutorial is written for Mac users, but please follow links into the 
 
 ## Prerequisites
 
-* some familiarity with the command line
-* enthusiasm!
+* Some familiarity with the command line
+* Enthusiasm!
 
 ## Learning Objectives
 
-After going through this tutorial you will know how to:
+After going through this tutorial, you will know how to:
 
 * Install IPFS and check that it's working properly
 * Get the hash of the data
 * Check that you have enough storage space on your local machine
-* Pin the data onto your machine
+* Pin the data in IPFS on your machine
 
 ****
 
-### Step 1. Install ipfs and check that it's working properly
+### Step 1. Install IPFS and check that it's working properly
 
 * Visit the IPFS installation page at https://ipfs.io/docs/install/
-* Scroll down to locate and download the prebuilt ipfs binaries for your operating system
-  * On Mac, click the big blue button shown in the screenshot below: 
+* Scroll down to locate and download the prebuilt `ipfs` binaries for your operating system
+  * On Mac computers, click the big blue button shown in the screenshot below: 
 
 ><img src="images/screenshot-go-ipfs-builds.png" width=500 />
 
@@ -33,14 +33,15 @@ After going through this tutorial you will know how to:
 ><img src="images/screenshot-content-unzipped.png" width=500>
 
 * Open Terminal, navigate into your unzipped go-ipfs folder, and type `sudo ./install.sh`
-  * This will install ipfs
+  * This will install `ipfs`
   * _If you have any difficulties and/or to learn the exact installation steps for each operating system, visit this page: https://github.com/flyingzumwalt/decentralized-web-primer/blob/master/install-ipfs/lessons/download-and-install.md_
   
 * In terminal, type `ipfs init`
-  * This will initialize your ipfs repository, or, in other words: 
-  * This will generate a local ipfs repository for the current user account on your machine. It also generates a cryptographic keypair that allows your ipfs node to cryptographically sign the content and messages that you create.
+  * This will initialize your IPFS repository, or, in other words: 
+    * This will generate a local IPFS repository for the current user account on your machine. It also generates a cryptographic keypair that allows your ipfs node to cryptographically sign the content and messages that you create.
   * Your terminal should print something similar to:
-```
+
+```bash
 $ ipfs init
 initializing ipfs node at /Users/jbenet/.go-ipfs
 generating 2048-bit RSA keypair...done
@@ -54,7 +55,7 @@ to get started, enter:
 
 * Take the hint from the response you just received, and type
 `$ ipfs cat /ipfs/QmYwAPJzv5CZsnA625s3Xf2nemtYgPpHdWEz79ojWnPbdG/readme`
-  * This ipfs cat command tells ipfs to read the content matching the path you provided. If the content isn't available locally, ipfs will attempt to find it on the peer-to-peer network.
+  * This `ipfs cat` command tells IPFS to read the content matching the path you provided. If the content isn't available locally, `ipfs` will attempt to find it on the peer-to-peer network.
   * Your terminal should print something similar to 
   
 ```
@@ -86,19 +87,19 @@ Check out some of the other files in this directory:
   ./security-notes
 
 ```
-* You are good to go at this point, but perhaps you might like to [explore a bit more to get used to ipfs](https://github.com/flyingzumwalt/decentralized-web-primer/blob/master/install-ipfs/lessons/initialize-repository.md#step-3-locate-where-ipfs-stores-the-repository-contents-on-your-machine)
+* You are good to go at this point, but perhaps you might like to [explore a bit more to get used to IPFS](https://github.com/flyingzumwalt/decentralized-web-primer/blob/master/install-ipfs/lessons/initialize-repository.md#step-3-locate-where-ipfs-stores-the-repository-contents-on-your-machine)
 
 
 ### Step 2. Start your local ipfs node
 
-* Open one terminal window to start ipfs on your local machine. 
-  *  This is your node on ipfs: it is running on your local machine, connecting you to the distributed web, allowing you to add and remove content, and broadcast those actions to the distributed web. 
+* Open one terminal window to start IPFS on your local machine. 
+  *  This is your node on IPFS: it is running on your local machine, connecting you to the distributed web, allowing you to add and remove content, and broadcast those actions to the distributed web. 
 * In terminal, type `ipfs daemon` 
-* Allow the ipfs process to keep running by leaving this window open.
+* Allow the `ipfs` process to keep running by leaving this window open.
 
 ### Step 3. Check the amount of space available on your hard drive
 
-* On a mac, use Disc Utility to check how much room your harddrive has. 
+* On a Mac, use Disc Utility to check how much room your harddrive has. 
 * Remember this amount for use in the next step!
 
 ### Step 3. Browse to a dataset online, check its size, and get its hash
@@ -126,7 +127,7 @@ Check out some of the other files in this directory:
 
 * Note the size, (in this case 999kb) and compare with the amount of room available on your hard drive -- ask yourself, will it fit? If so, proceed!
 
-* Look under the "Content" heading to see the name of the actual file that's located at that URL -- click the file name, in this case as shown in the above screenshot, the name is "CAFO_Density.zip" which will take you to the content page, shown below: 
+* Look under the "Content" heading to see the name of the actual file that's located at that URL -- click the file name, in this case as shown in the above screenshot, the name is `CAFO_Density.zip` which will take you to the content page, shown below: 
 
 ><img src="images/screenshot-CAFO-content.png" width=300>
 
