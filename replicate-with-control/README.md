@@ -34,7 +34,7 @@ After going through this tutorial you will know how to:
 
 * Open Terminal, navigate into your unzipped go-ipfs folder, and type `sudo ./install.sh`
   * This will install ipfs
-  * _If you have any difficulties and/or to learn the exact installation steps for each operating system, visit this page: https://github.com/flyingzumwalt/decentralized-web-primer/blob/master/install-ipfs/lessons/download-and-install.md
+  * _If you have any difficulties and/or to learn the exact installation steps for each operating system, visit this page: https://github.com/flyingzumwalt/decentralized-web-primer/blob/master/install-ipfs/lessons/download-and-install.md_
   
 * In terminal, type `ipfs init`
   * This will initialize your ipfs repository, or, in other words: 
@@ -50,7 +50,7 @@ to get started, enter:
   ipfs cat /ipfs/QmYwAPJzv5CZsnA625s3Xf2nemtYgPpHdWEz79ojWnPbdG/readme
 ```
   
-  * _If you have any difficulties and/or to learn the exact initialization steps for each operating system: https://github.com/flyingzumwalt/decentralized-web-primer/blob/master/install-ipfs/lessons/initialize-repository.md
+  * _If you have any difficulties and/or to learn the exact initialization steps for each operating system: https://github.com/flyingzumwalt/decentralized-web-primer/blob/master/install-ipfs/lessons/initialize-repository.md_
 
 * Take the hint from the response you just received, and type 
 `$ ipfs cat /ipfs/QmYwAPJzv5CZsnA625s3Xf2nemtYgPpHdWEz79ojWnPbdG/readme`
