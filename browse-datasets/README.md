@@ -30,6 +30,7 @@ After going through this tutorial you will know how to:
 
 * Browse the data to understand what it consists of. 
   * In this case, there's an XML file that contains metadata that we can start with. Great! If you have the additional ability to actually look at the data, which in this case would require geographic software like [QGIS](http://www.qgis.org/en/site/forusers/download.html) but in other cases might be a PDF or an XLS file, please do so. 
+  * In this example, notice that this data contains EPA's counts of CAFOs per county for every state in the United States. 
 
 * Return to the content URL metadata form online 
 
