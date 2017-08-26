@@ -44,12 +44,12 @@ An example would be EPA's National Greenhouse Gas Emission Inventory, currently 
 
 ### Step 4. Explore the concepts of data stewardship that underly Data Together
 
-* **Public Record** means a shared record of the information that has been published by the plethora of entities on the web.
-* **Distributed Data Stewardship** means is using distributed technologies to secure & provide access to data that you care about.
+* **Public Record** means a shared record of the information that has been published by groups, organizations and other entities on the web.
+* **Distributed Data Stewardship** means using distributed technologies to secure and provide access to data that people care about.
 
 ## Next Steps
 
-Move to the next tutorials on how to:
+Move on to the next tutorials to learn the following:
 
-* Replicate a dataset you care about onto hardware that you control
-* Browse datasets that have been backed up
+* [Replicate a Dataset](replicate-with-control/README.md) you care about onto hardware that you control
+* [Browse Datasets](browse-datasets/README.md) that have been backed up
