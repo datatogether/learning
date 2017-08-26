@@ -13,13 +13,14 @@ _Note: This tutorial is a work in progress. Please add your feedback to [datatog
 After going through this tutorial you will know how to:
 
 * Add metadata to data you care about
-* [...]
 
 ****
 
 ### Step 1. Add metadata
 
-* Return to your web browser, and the content page for CAFO_Density.zip: http://archivers.co/content/12208b35b5c819ef6a8bb5df4657acbed1fbf084f8efe3174b3896db0058d91e82e5
+* Return to your web browser, and signup/signin to http://archivers.co/
+
+* Navigate to the content page for CAFO_Density.zip: http://archivers.co/content/12208b35b5c819ef6a8bb5df4657acbed1fbf084f8efe3174b3896db0058d91e82e5
 
 * Click the download button
 
