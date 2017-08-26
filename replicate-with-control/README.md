@@ -30,7 +30,7 @@ After going through this tutorial you will know how to:
 
 * Download and unzip
 
-><img src="https://github.com/datatogether/learning/blob/liz-test-branch/replicate-with-control/images/screenshot-content-unzipped.png" width=500>
+><img src="images/screenshot-content-unzipped.png" width=500>
 
 * Open Terminal, navigate into your unzipped go-ipfs folder, and type `sudo ./install.sh`
   * This will install ipfs
@@ -105,30 +105,30 @@ Check out some of the other files in this directory:
 
 * Visit http://datatogether.org/public-record/ 
 
-><img src="https://github.com/datatogether/learning/blob/liz-test-branch/replicate-with-control/images/screenshot-public-record.png" width=300>
+><img src="images/screenshot-public-record.png" width=300>
 
 * Notice that several government agencies are offered as categories. Click into one of the categories. Shown below is EPA (which you can also reach via this [direct link](http://archivers.co/public-record/5b1031f4-38a8-40b3-be91-c324bf686a87))
 
-><img src="https://github.com/datatogether/learning/blob/liz-test-branch/replicate-with-control/images/screenshot-public-record-epa.png" width=300>
+><img src="images/screenshot-public-record-epa.png" width=300>
 
 * Notice the options on this page, which currently are: "EPA Open Data" "Environmental Dataset Gateway" "epa.gov" "Hazardous Air Pollutants 
   * Click on an option, also known as a _source_. Shown below is the Environmental Dataset Gateway:
 
-><img src="https://github.com/datatogether/learning/blob/liz-test-branch/replicate-with-control/images/screenshot-environmental-dataset-gateway.png" width=300>
+><img src="images/screenshot-environmental-dataset-gateway.png" width=300>
 
 * Scroll to find a dataset you are interested in, or use this example of CAFO (confined animal feed operation) geodata shown in the screenshot below ([direct link](http://archivers.co/url?url=http%3A%2F%2Fedg.epa.gov%2Fdata%2FPUBLIC%2FOECA%2FCAFO_Density.zip))
 
-><img src="https://github.com/datatogether/learning/blob/liz-test-branch/replicate-with-control/images/screenshot-cafo-listing.png" width=500>
+><img src="images/screenshot-cafo-listing.png" width=500>
 
 * Click on the CAFO link to arrive on the URL listing page. Notice the original URL is listed at the top "http://edg.epa.gov/data/PUBLIC/OECA/CAFO_Density.zip": 
 
-><img src="https://github.com/datatogether/learning/blob/liz-test-branch/replicate-with-control/images/screenshot-content-page.png" width=300>
+><img src="images/screenshot-content-page.png" width=300>
 
 * Note the size, (in this case 999kb) and compare with the amount of room available on your hard drive -- ask yourself, will it fit? If so, proceed!
 
 * Look under the "Content" heading to see the name of the actual file that's located at that URL -- click the file name, in this case as shown in the above screenshot, the name is "CAFO_Density.zip" which will take you to the content page, shown below: 
 
-><img src="https://github.com/datatogether/learning/blob/liz-test-branch/replicate-with-control/images/screenshot-CAFO-content.png" width=300>
+><img src="images/screenshot-CAFO-content.png" width=300>
 
 * Copy the long hash that begins with `/ipfs/` 
   * Notice that the hash is the same on the page as in the URL
@@ -149,7 +149,7 @@ Check out some of the other files in this directory:
     `ipfs pin add 12208b35b5c819ef6a8bb5df4657acbed1fbf084f8efe3174b3896db0058d91e82e5`
   * the response should be "pinned {hash} recursively"
   
-><img src="https://github.com/datatogether/learning/blob/liz-test-branch/replicate-with-control/images/screenshot-start-ipfs-in-terminal_crop.png" width=500>
+><img src="images/screenshot-start-ipfs-in-terminal_crop.png" width=500>
 
 ## Next Steps
 
