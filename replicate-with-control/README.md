@@ -2,7 +2,7 @@
 
 _Note: This tutorial is a work in progress. Please add your feedback to [datatogether/learning](https://github.com/datatogether/learning/issues)!_
 
-_Note: this tutorial is written for Mac users, but please follow links into the "decentralized web primer" to find detailed instructions for Windows and Mac installation of ipfs. Thank you!_
+_Note: this tutorial is written for Mac users, but please follow links into the "decentralized web primer" to find detailed instructions for Windows and Linux installation of ipfs. Thank you!_
 
 ## Prerequisites
 
@@ -86,7 +86,7 @@ Check out some of the other files in this directory:
   ./security-notes
 
 ```
-* You are good to go at this point, but perhaps you might like to [explore a bit more as you get used to ipfs](https://github.com/flyingzumwalt/decentralized-web-primer/blob/master/install-ipfs/lessons/initialize-repository.md#step-3-locate-where-ipfs-stores-the-repository-contents-on-your-machine)
+* You are good to go at this point, but perhaps you might like to [explore a bit more to get used to ipfs](https://github.com/flyingzumwalt/decentralized-web-primer/blob/master/install-ipfs/lessons/initialize-repository.md#step-3-locate-where-ipfs-stores-the-repository-contents-on-your-machine)
 
 
 ### Step 2. Start your local ipfs node
@@ -135,12 +135,6 @@ Check out some of the other files in this directory:
   * In this example, it is `/ipfs/12208b35b5c819ef6a8bb5df4657acbed1fbf084f8efe3174b3896db0058d91e82e5`
   * FYI: the long string of numbers and letters is a base-58 encoded hash. When the `/ipfs/` is included at front, it is referred to as the “path”
 
-* Click the download button
-
-* Temporarily leave the web browser (you'll be back in the next tutorial to add metadata) to locate the file you just downloaded onto your computer. Unzip it: 
-
-><img src="https://github.com/datatogether/learning/blob/liz-test-branch/replicate-with-control/images/screenshot-content-unzipped.png" width=300>
-
 ### Step 4. Pin the data onto your machine
 
 * Return to your Terminal window. 
@@ -156,13 +150,9 @@ Check out some of the other files in this directory:
   * the response should be "pinned {hash} recursively"
   
 ><img src="https://github.com/datatogether/learning/blob/liz-test-branch/replicate-with-control/images/screenshot-start-ipfs-in-terminal_crop.png" width=500>
-  
-### Step 5. Return to the website to add metadata
-
-* [...]
 
 ## Next Steps
 
 Move to the next tutorial on how to:
 
-* Browse datasets that have been backed up
+* Add metadata to datasets that have been backed up
