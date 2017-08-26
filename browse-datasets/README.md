@@ -1,32 +1,39 @@
-# Tutorial: Browse Datasets that have been backed up
+# Tutorial: Annotate content that’s already on the network
 
 _Note: This tutorial is a work in progress. Please add your feedback to [datatogether/learning](https://github.com/datatogether/learning/issues)!_
 
 ## Prerequisites
 
-* Some familiarity with the command line
-* [...]
+* Some interest in data
+* optional (but valuable if you have it) domain expertise 
+* enthusiasm!
 
 ## Learning Objectives
 
 After going through this tutorial you will know how to:
 
-* [...]
-* [...]
+* Add metadata to data you care about
 * [...]
 
 ****
 
-### Step 1.
+### Step 1. Add metadata
 
-* [...]
+* Return to your web browser, and the content page for CAFO_Density.zip: http://archivers.co/content/12208b35b5c819ef6a8bb5df4657acbed1fbf084f8efe3174b3896db0058d91e82e5
 
-### Step 2.
+* Click the download button
 
-* [...]
+* Temporarily leave the web browser (you'll be back in the next tutorial to add metadata) to locate the file you just downloaded onto your computer. Unzip it: 
 
-### Step 3.
+><img src="https://github.com/datatogether/learning/blob/liz-test-branch/replicate-with-control/images/screenshot-content-unzipped.png" width=300>
 
-* [...]
+* Browse the data to understand what it consists of. 
+  * In this case, there's an XML file that contains metadata that we can start with. Great! If you have the additional ability to actually look at the data, which in this case would require geographic software like [QGIS](http://www.qgis.org/en/site/forusers/download.html) but in other cases might be a PDF or an XLS file, please do so. 
+
+* Return to the content URL metadata form online 
+
+><img src="https://github.com/datatogether/learning/blob/liz-test-branch/browse-datasets/images/screenshot-metadata-form.png" width=500>
+
+* Fill in to the best of your abliity, and press the Save button
 
 ## Next Steps
