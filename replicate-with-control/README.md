@@ -147,12 +147,12 @@ Check out some of the other files in this directory:
 * In a 2nd terminal window (leave the daemon running in the first window), type `ipfs get {hash}`
   * In this example, type this: 
   
-`ipfs get 12208b35b5c819ef6a8bb5df4657acbed1fbf084f8efe3174b3896db0058d91e82e5`
+    `ipfs get 12208b35b5c819ef6a8bb5df4657acbed1fbf084f8efe3174b3896db0058d91e82e5`
   * the response should be "saving files to {hash}"
 * Next type, `ipfs pin add {hash}`
   * In this example, type this 
   
-`ipfs pin add 12208b35b5c819ef6a8bb5df4657acbed1fbf084f8efe3174b3896db0058d91e82e5`
+    `ipfs pin add 12208b35b5c819ef6a8bb5df4657acbed1fbf084f8efe3174b3896db0058d91e82e5`
   * the response should be "pinned {hash} recursively"
   
 ><img src="https://github.com/datatogether/learning/blob/liz-test-branch/replicate-with-control/images/screenshot-start-ipfs-in-terminal_crop.png" width=500>
