@@ -2,6 +2,8 @@
 
 _Note: This tutorial is a work in progress. Please add your feedback to [datatogether/learning](https://github.com/datatogether/learning/issues)!_
 
+_Note: this tutorial is written for Mac users, but please follow links into the "decentralized web primer" to find detailed instructions for Windows and Mac installation of ipfs. Thank you!_
+
 ## Prerequisites
 
 * some familiarity with the command line
@@ -15,8 +17,6 @@ After going through this tutorial you will know how to:
 * Get the hash of the data
 * Check that you have enough storage space on your local machine
 * Pin the data onto your machine
-
-_**Note: this tutorial is written for Mac users, but please follow links into the "decentralized web primer" to find detailed instructions for Windows and Mac installation of ipfs. Thank you!**_
 
 ****
 
