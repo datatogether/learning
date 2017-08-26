@@ -28,9 +28,66 @@ After going through this tutorial you will know how to:
 
 ><img src="images/screenshot-go-ipfs-builds.png" width=500 />
 
-* Visit this page to learn the exact installation steps for each operating system: https://github.com/flyingzumwalt/decentralized-web-primer/blob/master/install-ipfs/lessons/download-and-install.md
+* Download and unzip
 
-* Next visit this lesson to initialize your ipfs repository: https://github.com/flyingzumwalt/decentralized-web-primer/blob/master/install-ipfs/lessons/initialize-repository.md
+><img src="https://github.com/datatogether/learning/blob/liz-test-branch/replicate-with-control/images/screenshot-content-unzipped.png" width=500>
+
+* Open Terminal, navigate into your unzipped go-ipfs folder, and type `sudo ./install.sh`
+  * This will install ipfs
+  * _If you have any difficulties and/or to learn the exact installation steps for each operating system, visit this page: https://github.com/flyingzumwalt/decentralized-web-primer/blob/master/install-ipfs/lessons/download-and-install.md
+  
+* In terminal, type `ipfs init`
+  * This will initialize your ipfs repository, or, in other words: 
+  * This will generate a local ipfs repository for the current user account on your machine. It also generates a cryptographic keypair that allows your ipfs node to cryptographically sign the content and messages that you create.
+  * Your terminal should print something similar to:
+```
+$ ipfs init
+initializing ipfs node at /Users/jbenet/.go-ipfs
+generating 2048-bit RSA keypair...done
+peer identity: Qmcpo2iLBikrdf1d6QU6vXuNb6P7hwrbNPW9kLAH8eG67z
+to get started, enter:
+
+  ipfs cat /ipfs/QmYwAPJzv5CZsnA625s3Xf2nemtYgPpHdWEz79ojWnPbdG/readme
+```
+  
+  * _If you have any difficulties and/or to learn the exact initialization steps for each operating system: https://github.com/flyingzumwalt/decentralized-web-primer/blob/master/install-ipfs/lessons/initialize-repository.md
+
+* Take the hint from the response you just received, and type 
+`$ ipfs cat /ipfs/QmYwAPJzv5CZsnA625s3Xf2nemtYgPpHdWEz79ojWnPbdG/readme`
+  * This ipfs cat command tells ipfs to read the content matching the path you provided. If the content isn't available locally, ipfs will attempt to find it on the peer-to-peer network.
+  * Your terminal should print something similar to 
+  
+```
+Hello and Welcome to IPFS!
+
+██╗██████╗ ███████╗███████╗
+██║██╔══██╗██╔════╝██╔════╝
+██║██████╔╝█████╗  ███████╗
+██║██╔═══╝ ██╔══╝  ╚════██║
+██║██║     ██║     ███████║
+╚═╝╚═╝     ╚═╝     ╚══════╝
+
+If you're seeing this, you have successfully installed
+IPFS and are now interfacing with the ipfs merkledag!
+
+ -------------------------------------------------------
+| Warning:                                              |
+|   This is alpha software. use at your own discretion! |
+|   Much is missing or lacking polish. There are bugs.  |
+|   Not yet secure. Read the security notes for more.   |
+ -------------------------------------------------------
+
+Check out some of the other files in this directory:
+
+  ./about
+  ./help
+  ./quick-start     <-- usage examples
+  ./readme          <-- this file
+  ./security-notes
+
+```
+* You are good to go at this point, but perhaps you might like to [explore a bit more as you get used to ipfs](https://github.com/flyingzumwalt/decentralized-web-primer/blob/master/install-ipfs/lessons/initialize-repository.md#step-3-locate-where-ipfs-stores-the-repository-contents-on-your-machine)
+
 
 ### Step 2. Start your local ipfs node
 
