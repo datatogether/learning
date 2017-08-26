@@ -52,7 +52,7 @@ to get started, enter:
   
   * _If you have any difficulties and/or to learn the exact initialization steps for each operating system: https://github.com/flyingzumwalt/decentralized-web-primer/blob/master/install-ipfs/lessons/initialize-repository.md_
 
-* Take the hint from the response you just received, and type 
+* Take the hint from the response you just received, and type
 `$ ipfs cat /ipfs/QmYwAPJzv5CZsnA625s3Xf2nemtYgPpHdWEz79ojWnPbdG/readme`
   * This ipfs cat command tells ipfs to read the content matching the path you provided. If the content isn't available locally, ipfs will attempt to find it on the peer-to-peer network.
   * Your terminal should print something similar to 
