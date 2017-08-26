@@ -139,16 +139,16 @@ Check out some of the other files in this directory:
 ### Step 4. Pin the data onto your machine
 
 * Return to your Terminal window. 
-* In a 2nd terminal window (leave the daemon running in the first window), type `ipfs get {hash}`
+* In a 2nd terminal window (leave the daemon running in the first window), type `ipfs get X`, where `X` is the hash
   * In this example, type this: 
   
     `ipfs get 12208b35b5c819ef6a8bb5df4657acbed1fbf084f8efe3174b3896db0058d91e82e5`
-  * the response should be "saving files to {hash}"
-* Next type, `ipfs pin add {hash}`
-  * In this example, type this 
+  * the response should be "saving files to X"
+* Next type, `ipfs pin add X`
+  * In this example, type this:
   
     `ipfs pin add 12208b35b5c819ef6a8bb5df4657acbed1fbf084f8efe3174b3896db0058d91e82e5`
-  * the response should be "pinned {hash} recursively"
+  * The response should be "pinned 12208b35b5c819ef6a8bb5df4657acbed1fbf084f8efe3174b3896db0058d91e82e5 recursively"
   
 ><img src="images/screenshot-start-ipfs-in-terminal_crop.png" width=500>
 
