@@ -146,10 +146,12 @@ Check out some of the other files in this directory:
 * Return to your Terminal window. 
 * In a 2nd terminal window (leave the daemon running in the first window), type `ipfs get {hash}`
   * In this example, type this: 
+  
 `ipfs get 12208b35b5c819ef6a8bb5df4657acbed1fbf084f8efe3174b3896db0058d91e82e5`
   * the response should be "saving files to {hash}"
 * Next type, `ipfs pin add {hash}`
   * In this example, type this 
+  
 `ipfs pin add 12208b35b5c819ef6a8bb5df4657acbed1fbf084f8efe3174b3896db0058d91e82e5`
   * the response should be "pinned {hash} recursively"
   
