@@ -133,7 +133,7 @@ Check out some of the other files in this directory:
 
 * Copy the long hash that begins with `/ipfs/` 
   * Notice that the hash is the same on the page as in the URL
-  * In this example, it is `/ipfs/12208b35b5c819ef6a8bb5df4657acbed1fbf084f8efe3174b3896db0058d91e82e5`
+  * In this example, it is `/ipfs/QmQU7RoBd8FWAkbePif7Xw5cjoL1Wb6wxCefdTuoA7XGa7`
   * FYI: the long string of numbers and letters is a base-58 encoded hash. When the `/ipfs/` is included at front, it is referred to as the “path”
 
 ### Step 4. Pin the data onto your machine
@@ -142,13 +142,13 @@ Check out some of the other files in this directory:
 * In a 2nd terminal window (leave the daemon running in the first window), type `ipfs get X`, where `X` is the hash
   * In this example, type this: 
   
-    `ipfs get 12208b35b5c819ef6a8bb5df4657acbed1fbf084f8efe3174b3896db0058d91e82e5`
+    `ipfs get QmQU7RoBd8FWAkbePif7Xw5cjoL1Wb6wxCefdTuoA7XGa7`
   * the response should be "saving files to X"
 * Next type, `ipfs pin add X`
   * In this example, type this:
   
-    `ipfs pin add 12208b35b5c819ef6a8bb5df4657acbed1fbf084f8efe3174b3896db0058d91e82e5`
-  * The response should be "pinned 12208b35b5c819ef6a8bb5df4657acbed1fbf084f8efe3174b3896db0058d91e82e5 recursively"
+    `ipfs pin add QmQU7RoBd8FWAkbePif7Xw5cjoL1Wb6wxCefdTuoA7XGa7`
+  * The response should be "pinned QmQU7RoBd8FWAkbePif7Xw5cjoL1Wb6wxCefdTuoA7XGa7 recursively"
   
 ><img src="images/screenshot-start-ipfs-in-terminal_crop.png" width=500>
 

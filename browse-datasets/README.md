@@ -20,7 +20,7 @@ After going through this tutorial you will know how to:
 
 * Return to your web browser, and signup/signin to http://archivers.co/
 
-* Navigate to the content page for `CAFO_Density.zip`: http://archivers.co/content/12208b35b5c819ef6a8bb5df4657acbed1fbf084f8efe3174b3896db0058d91e82e5
+* Navigate to the content page for `CAFO_Density.zip`: http://archivers.co/content/QmQU7RoBd8FWAkbePif7Xw5cjoL1Wb6wxCefdTuoA7XGa7
 
 * Click the download button
 
