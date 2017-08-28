@@ -1,0 +1,469 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Replicate a Dataset · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../browse-datasets/" />
+    
+    
+    <link rel="prev" href="../add-dataset/" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">Getting Started</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Tutorials</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../add-dataset/">
+            
+                <a href="../add-dataset/">
+            
+                    
+                    Add a Dataset
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Replicate a Dataset
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../browse-datasets/">
+            
+                <a href="../browse-datasets/">
+            
+                    
+                    Browse Datasets
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Replicate a Dataset</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="tutorial-replicate-a-dataset-you-care-about-onto-hardware-that-you-control">Tutorial: Replicate a Dataset you care about onto hardware that you control</h1>
+<p><em>Note: This tutorial is a work in progress. Please add your feedback to <a href="https://github.com/datatogether/learning/issues" target="_blank">datatogether/learning</a>!</em></p>
+<p><em>Note: this tutorial is written for Mac users, but please follow links into the &quot;decentralized web primer&quot; to find detailed instructions for Windows and Linux installation of ipfs. Thank you!</em></p>
+<h2 id="prerequisites">Prerequisites</h2>
+<ul>
+<li>Some familiarity with the command line</li>
+<li>Enthusiasm!</li>
+</ul>
+<h2 id="learning-objectives">Learning Objectives</h2>
+<p>After going through this tutorial, you will know how to:</p>
+<ul>
+<li>Install IPFS and check that it&apos;s working properly</li>
+<li>Get the hash of the data</li>
+<li>Check that you have enough storage space on your local machine</li>
+<li>Pin the data in IPFS on your machine</li>
+</ul>
+<hr>
+<h3 id="step-1-install-ipfs-and-check-that-its-working-properly">Step 1. Install IPFS and check that it&apos;s working properly</h3>
+<ul>
+<li>Visit the IPFS installation page at <a href="https://ipfs.io/docs/install/" target="_blank">https://ipfs.io/docs/install/</a></li>
+<li>Scroll down to locate and download the prebuilt <code>ipfs</code> binaries for your operating system<ul>
+<li>On Mac computers, click the big blue button shown in the screenshot below: </li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p><img src="images/screenshot-go-ipfs-builds.png" width="500"></p>
+</blockquote>
+<ul>
+<li>Download and unzip</li>
+</ul>
+<blockquote>
+<p><img src="images/screenshot-content-unzipped.png" width="500"></p>
+</blockquote>
+<ul>
+<li><p>Open Terminal, navigate into your unzipped go-ipfs folder, and type <code>sudo ./install.sh</code></p>
+<ul>
+<li>This will install <code>ipfs</code></li>
+<li><em>If you have any difficulties and/or to learn the exact installation steps for each operating system, visit this page: <a href="https://github.com/flyingzumwalt/decentralized-web-primer/blob/master/install-ipfs/lessons/download-and-install.md" target="_blank">https://github.com/flyingzumwalt/decentralized-web-primer/blob/master/install-ipfs/lessons/download-and-install.md</a></em></li>
+</ul>
+</li>
+<li><p>In terminal, type <code>ipfs init</code></p>
+<ul>
+<li>This will initialize your IPFS repository, or, in other words: <ul>
+<li>This will generate a local IPFS repository for the current user account on your machine. It also generates a cryptographic keypair that allows your ipfs node to cryptographically sign the content and messages that you create.</li>
+</ul>
+</li>
+<li>Your terminal should print something similar to:</li>
+</ul>
+</li>
+</ul>
+<pre><code class="lang-bash">$ ipfs init
+initializing ipfs node at /Users/jbenet/.go-ipfs
+generating 2048-bit RSA keypair...done
+peer identity: Qmcpo2iLBikrdf1d6QU6vXuNb6P7hwrbNPW9kLAH8eG67z
+to get started, enter:
+
+  ipfs cat /ipfs/QmYwAPJzv5CZsnA625s3Xf2nemtYgPpHdWEz79ojWnPbdG/readme
+</code></pre>
+<ul>
+<li><em>If you have any difficulties and/or to learn the exact initialization steps for each operating system: <a href="https://github.com/flyingzumwalt/decentralized-web-primer/blob/master/install-ipfs/lessons/initialize-repository.md" target="_blank">https://github.com/flyingzumwalt/decentralized-web-primer/blob/master/install-ipfs/lessons/initialize-repository.md</a></em></li>
+</ul>
+<ul>
+<li>Take the hint from the response you just received, and type
+<code>$ ipfs cat /ipfs/QmYwAPJzv5CZsnA625s3Xf2nemtYgPpHdWEz79ojWnPbdG/readme</code><ul>
+<li>This <code>ipfs cat</code> command tells IPFS to read the content matching the path you provided. If the content isn&apos;t available locally, <code>ipfs</code> will attempt to find it on the peer-to-peer network.</li>
+<li>Your terminal should print something similar to </li>
+</ul>
+</li>
+</ul>
+<pre><code>Hello and Welcome to IPFS!
+
+&#x2588;&#x2588;&#x2557;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2557; &#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2557;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2557;
+&#x2588;&#x2588;&#x2551;&#x2588;&#x2588;&#x2554;&#x2550;&#x2550;&#x2588;&#x2588;&#x2557;&#x2588;&#x2588;&#x2554;&#x2550;&#x2550;&#x2550;&#x2550;&#x255D;&#x2588;&#x2588;&#x2554;&#x2550;&#x2550;&#x2550;&#x2550;&#x255D;
+&#x2588;&#x2588;&#x2551;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2554;&#x255D;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2557;  &#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2557;
+&#x2588;&#x2588;&#x2551;&#x2588;&#x2588;&#x2554;&#x2550;&#x2550;&#x2550;&#x255D; &#x2588;&#x2588;&#x2554;&#x2550;&#x2550;&#x255D;  &#x255A;&#x2550;&#x2550;&#x2550;&#x2550;&#x2588;&#x2588;&#x2551;
+&#x2588;&#x2588;&#x2551;&#x2588;&#x2588;&#x2551;     &#x2588;&#x2588;&#x2551;     &#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2551;
+&#x255A;&#x2550;&#x255D;&#x255A;&#x2550;&#x255D;     &#x255A;&#x2550;&#x255D;     &#x255A;&#x2550;&#x2550;&#x2550;&#x2550;&#x2550;&#x2550;&#x255D;
+
+If you&apos;re seeing this, you have successfully installed
+IPFS and are now interfacing with the ipfs merkledag!
+
+ -------------------------------------------------------
+| Warning:                                              |
+|   This is alpha software. use at your own discretion! |
+|   Much is missing or lacking polish. There are bugs.  |
+|   Not yet secure. Read the security notes for more.   |
+ -------------------------------------------------------
+
+Check out some of the other files in this directory:
+
+  ./about
+  ./help
+  ./quick-start     &lt;-- usage examples
+  ./readme          &lt;-- this file
+  ./security-notes
+</code></pre><ul>
+<li>You are good to go at this point, but perhaps you might like to <a href="https://github.com/flyingzumwalt/decentralized-web-primer/blob/master/install-ipfs/lessons/initialize-repository.md#step-3-locate-where-ipfs-stores-the-repository-contents-on-your-machine" target="_blank">explore a bit more to get used to IPFS</a></li>
+</ul>
+<h3 id="step-2-start-your-local-ipfs-node">Step 2. Start your local ipfs node</h3>
+<ul>
+<li>Open one terminal window to start IPFS on your local machine. <ul>
+<li>This is your node on IPFS: it is running on your local machine, connecting you to the distributed web, allowing you to add and remove content, and broadcast those actions to the distributed web. </li>
+</ul>
+</li>
+<li>In terminal, type <code>ipfs daemon</code> </li>
+<li>Allow the <code>ipfs</code> process to keep running by leaving this window open.</li>
+</ul>
+<h3 id="step-3-check-the-amount-of-space-available-on-your-hard-drive">Step 3. Check the amount of space available on your hard drive</h3>
+<ul>
+<li>On a Mac, use Disc Utility to check how much room your harddrive has. </li>
+<li>Remember this amount for use in the next step!</li>
+</ul>
+<h3 id="step-3-browse-to-a-dataset-online-check-its-size-and-get-its-hash">Step 3. Browse to a dataset online, check its size, and get its hash</h3>
+<ul>
+<li>Visit <a href="http://datatogether.org/public-record/" target="_blank">http://datatogether.org/public-record/</a> </li>
+</ul>
+<blockquote>
+<p><img src="images/screenshot-public-record.png" width="300"></p>
+</blockquote>
+<ul>
+<li>Notice that several government agencies are offered as categories. Click into one of the categories. Shown below is EPA (which you can also reach via this <a href="http://archivers.co/public-record/5b1031f4-38a8-40b3-be91-c324bf686a87" target="_blank">direct link</a>)</li>
+</ul>
+<blockquote>
+<p><img src="images/screenshot-public-record-epa.png" width="300"></p>
+</blockquote>
+<ul>
+<li>Notice the options on this page, which currently are: &quot;EPA Open Data&quot; &quot;Environmental Dataset Gateway&quot; &quot;epa.gov&quot; &quot;Hazardous Air Pollutants <ul>
+<li>Click on an option, also known as a <em>source</em>. Shown below is the Environmental Dataset Gateway:</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p><img src="images/screenshot-environmental-dataset-gateway.png" width="300"></p>
+</blockquote>
+<ul>
+<li>Scroll to find a dataset you are interested in, or use this example of CAFO (confined animal feed operation) geodata shown in the screenshot below (<a href="http://archivers.co/url?url=http%3A%2F%2Fedg.epa.gov%2Fdata%2FPUBLIC%2FOECA%2FCAFO_Density.zip" target="_blank">direct link</a>)</li>
+</ul>
+<blockquote>
+<p><img src="images/screenshot-cafo-listing.png" width="500"></p>
+</blockquote>
+<ul>
+<li>Click on the CAFO link to arrive on the URL listing page. Notice the original URL is listed at the top &quot;<a href="http://edg.epa.gov/data/PUBLIC/OECA/CAFO_Density.zip" target="_blank">http://edg.epa.gov/data/PUBLIC/OECA/CAFO_Density.zip</a>&quot;: </li>
+</ul>
+<blockquote>
+<p><img src="images/screenshot-content-page.png" width="300"></p>
+</blockquote>
+<ul>
+<li><p>Note the size, (in this case 999kb) and compare with the amount of room available on your hard drive -- ask yourself, will it fit? If so, proceed!</p>
+</li>
+<li><p>Look under the &quot;Content&quot; heading to see the name of the actual file that&apos;s located at that URL -- click the file name, in this case as shown in the above screenshot, the name is <code>CAFO_Density.zip</code> which will take you to the content page, shown below: </p>
+</li>
+</ul>
+<blockquote>
+<p><img src="images/screenshot-CAFO-content.png" width="300"></p>
+</blockquote>
+<ul>
+<li>Copy the long hash that begins with <code>/ipfs/</code> <ul>
+<li>Notice that the hash is the same on the page as in the URL</li>
+<li>In this example, it is <code>/ipfs/QmQU7RoBd8FWAkbePif7Xw5cjoL1Wb6wxCefdTuoA7XGa7</code></li>
+<li>FYI: the long string of numbers and letters is a base-58 encoded hash. When the <code>/ipfs/</code> is included at front, it is referred to as the &#x201C;path&#x201D;</li>
+</ul>
+</li>
+</ul>
+<h3 id="step-4-pin-the-data-onto-your-machine">Step 4. Pin the data onto your machine</h3>
+<ul>
+<li>Return to your Terminal window. </li>
+<li><p>In a 2nd terminal window (leave the daemon running in the first window), type <code>ipfs get X</code>, where <code>X</code> is the hash</p>
+<ul>
+<li><p>In this example, type this: </p>
+<p><code>ipfs get QmQU7RoBd8FWAkbePif7Xw5cjoL1Wb6wxCefdTuoA7XGa7</code></p>
+</li>
+<li>the response should be &quot;saving files to X&quot;</li>
+</ul>
+</li>
+<li><p>Next type, <code>ipfs pin add X</code></p>
+<ul>
+<li><p>In this example, type this:</p>
+<p><code>ipfs pin add QmQU7RoBd8FWAkbePif7Xw5cjoL1Wb6wxCefdTuoA7XGa7</code></p>
+</li>
+<li>The response should be &quot;pinned QmQU7RoBd8FWAkbePif7Xw5cjoL1Wb6wxCefdTuoA7XGa7 recursively&quot;</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p><img src="images/screenshot-start-ipfs-in-terminal_crop.png" width="500"></p>
+</blockquote>
+<h2 id="next-steps">Next Steps</h2>
+<p>Move to the next tutorial on how to:</p>
+<ul>
+<li>Add metadata to datasets that have been backed up</li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../add-dataset/" class="navigation navigation-prev " aria-label="Previous page: Add a Dataset">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../browse-datasets/" class="navigation navigation-next " aria-label="Next page: Browse Datasets">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Replicate a Dataset","level":"2.2","depth":1,"next":{"title":"Browse Datasets","level":"2.3","depth":1,"path":"browse-datasets/README.md","ref":"browse-datasets/README.md","articles":[]},"previous":{"title":"Add a Dataset","level":"2.1","depth":1,"path":"add-dataset/README.md","ref":"add-dataset/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"replicate-with-control/README.md","mtime":"2017-08-28T16:31:57.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-08-28T16:37:25.529Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
