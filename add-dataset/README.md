@@ -4,7 +4,7 @@ _Note: This tutorial is a work in progress. Please add your feedback to [datatog
 
 ## Prerequisites
 
-* You care about a dataset that exists on the web
+* You care about a dataset that exists on the web -- that's it :)
 
 ## Learning Objectives
 
@@ -15,58 +15,41 @@ After going through this tutorial you will know how to:
 * Explain the difference between adding, harvesting, and storing datasets with Data Together
 * Describe how Data Together helps groups to steward data they care about
 
-## Key Concepts
+****
 
-* Public Record
-* Data Together Nodes
-* Distributed Data Stewardship
+### Step 1. Get information about a dataset
 
-## Lessons
+* Consider the dataset that you would like to archive on Data Together.
+* Make note of the **name** and **web address** or [**URL** ](https://en.wikipedia.org/wiki/URL) where the dataset can be accessed.
+* In addition but without spending too much time, make note of contextual information such as what you use the data for, why the data was collected (and by who), what date it was published.
 
-### Add an Important Dataset{#lesson-one}
+An example would be EPA's National Greenhouse Gas Emission Inventory, currently located at https://catalog.data.gov/dataset/national-greenhouse-gas-emission-inventory.
 
-#### Step 1. Get information about a dataset
+### Step 2. Register on Data Together _(optional)_
 
-Before you start you'll want to know a little bit about the dataset you would like to archive on Data Together. At a minimum this should include the **name** and **web address** or [**URL** ](https://en.wikipedia.org/wiki/URL) where the dataset can be accessed.
+* Register on Data Together by visiting https://archivers.co/signup
 
-An example would be EPA's National Greenhouse Gas Emission Inventory, currently located at https://catalog.data.gov/dataset/national-greenhouse-gas-emission-inventory. 
+<img src="images/Screenshot-signup.png" width=500 />
 
-
-#### Step 2. Register on Data Together
-
-To register on Data Together, visit https://archivers.co/signup
-
-<img src="images/Screenshot-signup.png" width=250> <img src="images/screenshot-signup-1.png" width=250>
-
-
-#### Step 3. Archive a dataset on Data Together
+### Step 3. Archive a dataset on Data Together
 
 * Copy the URL of the dataset you would like to archive
 * Visit the Data Together [Add a Dataset](#) page
 * Paste the URL into the "URL to archive" text box
-* Type a simple description in your own words into the "How do you use this dataset?" text box 
+* Type a simple description in your own words into the "How do you use this dataset?" text box
 * Click the "Archive" button
 * Success! You archived a dataset :)
 
-<img src="images/screenshot-AddADataset.png" width=500>
+<img src="images/screenshot-AddADataset.png" width=500 />
 
-#### Step 4. Review the actions you can take on datasets
+### Step 4. Explore the concepts of data stewardship that underly Data Together
 
-Adding, harvesting, and storing are all verbs used in Data Together to describe actions you can preform on datasets
-
-* Adding a dataset means [...]
-* Harvesting a dataset means [...]
-* Storing a dataset means [...]
-
-#### Step 5. Explore the concepts of data stewardship that underly Data Together
-
-Data Together helps groups steward data they care about by [...]
+* **Public Record** means a shared record of the information that has been published by groups, organizations and other entities on the web.
+* **Distributed Data Stewardship** means using distributed technologies to secure and provide access to data that people care about.
 
 ## Next Steps
 
-More tutorials to follow, including how to:
+Move on to the next tutorials to learn the following:
 
-* Replicate a dataset you care about onto hardware that you control
-* Browse datasets that have been backed up
-
-Check back soon!
+* [Replicate a Dataset](replicate-with-control/README.md) you care about onto hardware that you control
+* [Browse Datasets](browse-datasets/README.md) that have been backed up

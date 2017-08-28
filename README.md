@@ -1,6 +1,7 @@
 # Data Together Learning Materials
 
-This primer introduces key concepts for community-based data stewardship and contains a series of tutorials explaining Data Together. As a [GitBook](https://www.gitbook.com/), it can be read in many different formats.
+This primer introduces key concepts for community-based data stewardship and contains a series of tutorials explaining Data Together and showing how to add content to the network, annotate content that’s already on the network, and reinforce content that is already stored on the network.
+As a [GitBook](https://www.gitbook.com/), it can be read in many different formats.
 
 ## First Steps
 
