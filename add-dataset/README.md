@@ -34,7 +34,7 @@ An example would be EPA's National Greenhouse Gas Emission Inventory, currently 
 ### Step 3. Archive a dataset on Data Together
 
 * Copy the URL of the dataset you would like to archive
-* Visit the Data Together [Add a Dataset](#) page
+* Visit the Data Together [Add a Dataset](http://archivers.co/add-dataset) page
 * Paste the URL into the "URL to archive" text box
 * Type a simple description in your own words into the "How do you use this dataset?" text box
 * Click the "Archive" button
