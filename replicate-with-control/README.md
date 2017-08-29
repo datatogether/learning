@@ -30,7 +30,7 @@ After going through this tutorial, you will know how to:
 
 * Download and unzip
 
-><img src="images/screenshot-content-unzipped.png" width=500>
+><img src="images/screenshot-ipfs-unzipped.png" width=500>
 
 * Open Terminal, navigate into your unzipped go-ipfs folder, and type `sudo ./install.sh`
   * This will install `ipfs`
