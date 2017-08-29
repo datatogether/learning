@@ -7,7 +7,7 @@ As a [GitBook](https://www.gitbook.com/), it can be read in many different forma
 
 Check out the [Table of Contents](SUMMARY.md) or the sidebar on the left. Topics are broken down into _Tutorials_ with distinct _Lessons_ within each!
 
-The [first tutorial]() covers adding a dataset to Data Together and reviews how Data Together is different from other forms of preserving data.
+The [first tutorial](add-dataset/) covers adding a dataset to Data Together and reviews how Data Together is different from other forms of preserving data.
 
 ## Getting Help
 
