@@ -104,7 +104,7 @@ Check out some of the other files in this directory:
 
 ### Step 3. Browse to a dataset online, check its size, and get its hash
 
-* Visit http://datatogether.org/public-record/ 
+* Visit http://archivers.co/public-record/ 
 
 ><img src="images/screenshot-public-record.png" width=300>
 
