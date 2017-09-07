@@ -18,7 +18,7 @@ After going through this tutorial you will know
 
 * Custom Crawler:  An automated way to download data and prepare it for upload into the Data Together network. This is usually a script file that is written specifically for a dataset.
 * [Morph.io](https://morph.io/): An online service that automates and saves user created scripts.
-* Archivertools: An Python package to aid in accessing Morph.io and Data Together APIs using an Archiver class. This package also contains some common scraping functions. Currently written in Python 3.
+* [Archivertools](https://github.com/datatogether/archivertools): An Python package to aid in accessing Morph.io and Data Together APIs using an Archiver class. This package also contains some common scraping functions. Currently written in Python 3.
 
 
 ## Lessons
