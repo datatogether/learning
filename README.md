@@ -1,7 +1,30 @@
 # Data Together Learning Materials
 
+<!-- Repo Badges for: Github Project, Slack, License-->
+
+[![GitHub](https://img.shields.io/badge/project-Data_Together-487b57.svg?style=flat-square)](http://github.com/datatogether)
+[![Slack](https://img.shields.io/badge/slack-Archivers-b44e88.svg?style=flat-square)](https://archivers-slack.herokuapp.com/)
+[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](./LICENSE) 
+
 This primer introduces key concepts for community-based data stewardship and contains a series of tutorials explaining Data Together and showing how to add content to the network, annotate content that’s already on the network, and reinforce content that is already stored on the network.
+
 As a [GitBook](https://www.gitbook.com/), it can be read in many different formats.
+
+## License
+
+<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Data Together Learning Materials</span> are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+
+See the [`LICENSE`](/LICENSE) file for details.
+
+## Getting Involved
+
+We would love involvement from more people! If you notice any errors or would like to submit changes, please see our [Contributing Guidelines](./CONTRIBUTING.md). 
+
+We use GitHub issues for [tracking bugs and feature requests](./issues) and Pull Requests (PRs) for [submitting changes](./pulls)
+
+## ...
+
+## [Optional section(s) on Installation (actually using the service!), Architecture, Dependencies, and Other Considerations]
 
 ## First Steps
 
@@ -67,8 +90,12 @@ You may need to install Calibre's ebook-convert cli tools. For Mac OS X, these c
 $ ln -s /Applications/calibre.app/Contents/MacOS/ebook-convert /usr/local/bin
 ```
 
-## License
+[fill  out this section if the repo contains deployable/installable code]
 
-<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Data Together Learning Materials</span> are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+## Development
 
-See the [`LICENSE`](/LICENSE) file for details.
+[Step-by-step instructions about how to set up a local dev environment and any dependencies]
+
+## Deployment
+
+[Optional section with deployment instructions]
