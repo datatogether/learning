@@ -2,7 +2,7 @@
 
 [![GitHub](https://img.shields.io/badge/project-Data_Together-487b57.svg?style=flat-square)](http://github.com/datatogether)
 [![Slack](https://img.shields.io/badge/slack-Archivers-b44e88.svg?style=flat-square)](https://archivers-slack.herokuapp.com/)
-[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](./LICENSE)
+[![License](https://img.shields.io/github/license/datatogether/learning.svg)](./LICENSE)
 
 This primer introduces key concepts for community-based data stewardship and contains a series of tutorials explaining Data Together and showing how to add content to the network, annotate content that’s already on the network, and reinforce content that is already stored on the network.
 As a [GitBook](https://www.gitbook.com/), it can be read in many different formats.
